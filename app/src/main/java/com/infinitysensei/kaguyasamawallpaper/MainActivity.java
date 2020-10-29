@@ -6,7 +6,11 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.RelativeLayout;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdSize;
+import com.google.android.gms.ads.AdView;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -60,6 +64,7 @@ public class MainActivity extends AppCompatActivity {
     Button b48;
     Button b49;
     Button b50;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -465,5 +470,12 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent1);
             }
         });
+        AdView adView = new AdView(this);
+        adView.setAdSize(AdSize.BANNER);
+        adView.setAdUnitId("ca-app-pub-3940256099942544/6300978111");
+        RelativeLayout layout=(RelativeLayout)findViewById(R.id.adView);
+        layout.addView(adView);
+        AdRequest adRequest=new AdRequest.Builder().build();
+        adView.loadAd(adRequest);
     }
 }
