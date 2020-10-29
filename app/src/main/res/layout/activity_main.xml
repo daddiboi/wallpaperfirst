@@ -461,7 +461,7 @@
                 android:layout_height="300dp"
                 android:layout_marginTop="40dp"
                 android:layout_gravity="right"
-                android:layout_marginRight="15dp"
+                android:layout_marginRight="30dp"
 
                 android:contentDescription="@string/wallpaper"
                 app:srcCompat="@drawable/w26" />
