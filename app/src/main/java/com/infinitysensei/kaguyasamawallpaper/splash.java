@@ -15,16 +15,13 @@ import androidx.appcompat.app.AppCompatActivity;
 public class splash extends AppCompatActivity {
 
     /** Duration of wait **/
-    private final int SPLASH_DISPLAY_LENGTH = 1000;
+    private final int SPLASH_DISPLAY_LENGTH = 2700;
     ImageView imageView;
     /** Called when the activity is first created.**/
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
-        imageView=(ImageView)findViewById(R.id.imageView1);
-        Animation an2= AnimationUtils.loadAnimation(this,R.anim.life_to_right);
-        imageView.startAnimation(an2);
 
         /* New Handler to start the Menu-Activity
          * and close this Splash-Screen after some seconds.*/

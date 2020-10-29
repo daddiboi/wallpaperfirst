@@ -4,16 +4,15 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:gravity="center"
-    android:background="#FFFFFF"
+    android:background="@drawable/gh"
     android:orientation="vertical"
     android:layout_height="match_parent">
-    <ImageView
+    <ProgressBar
         android:id="@+id/imageView1"
+        style="?android:attr/progressBarStyle"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/ic_launcher_background"
-        android:contentDescription="@null" />
+        android:layout_height="wrap_content" />
+
     <me.itangqi.waveloadingview.WaveLoadingView
         android:id="@+id/waveLoadingView"
         android:layout_width="match_parent"
@@ -25,15 +24,17 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
         app:wlv_borderWidth="0dp"
-        app:wlv_progressValue="30"
-        app:wlv_round_rectangle="false"
+        app:wlv_progressValue="60"
+        app:wlv_round_rectangle="true"
         app:wlv_shapeType="rectangle"
-        app:wlv_titleCenterColor="@android:color/darker_gray"
+        app:wlv_titleCenterColor="@android:color/holo_green_dark"
         app:wlv_titleCenterSize="24sp"
         app:wlv_titleCenterStrokeColor="@android:color/holo_red_light"
-        app:wlv_titleCenterStrokeWidth="3dp"
+        app:wlv_titleCenterStrokeWidth="7dp"
         app:wlv_triangle_direction="west"
-        app:wlv_waveAmplitude="50"
-        app:wlv_waveColor="@color/colorAccent"
+        app:wlv_waveAmplitude="80"
+        app:wlv_waveColor="#ff0055"
         tools:ignore="MissingConstraints" />
+
+
 </androidx.appcompat.widget.LinearLayoutCompat>
