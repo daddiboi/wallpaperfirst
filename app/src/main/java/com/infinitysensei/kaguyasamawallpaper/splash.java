@@ -15,7 +15,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class splash extends AppCompatActivity {
 
     /** Duration of wait **/
-    private final int SPLASH_DISPLAY_LENGTH = 2700;
+    private final int SPLASH_DISPLAY_LENGTH = 2000;
     ImageView imageView;
     /** Called when the activity is first created.**/
     @Override

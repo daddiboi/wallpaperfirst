@@ -12,4 +12,5 @@
     <string name="wallpapertext">Wallpaper</string>
     <string name="back">Back</string>
     <string name="todo">TODO</string>
+    <string name="your_content_is_loading">Your content is loading</string>
 </resources>
