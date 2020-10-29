@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Kaguya wallpaper sama</string>
+    <string name="wallpaper">WALLPAPER</string>
+    <string name="set_as_wallpaper">SET AS WALLPAPER</string>
+    <string name="all_the_wallpapers_shows_in_the_app_are_either_in_public_domains_or_under_creative_commons_liscense_for_which_proper_attribution_is_given_to_the_respective_uploaders_no_wallpaper_is_distributed_with_our_app_if_an_image_violates_any_copyright_please_report_it_to_us_and_we_will_remove_it_from_our_database">All the wallpapers shows in the app are either in public domains or under Creative Commons liscense for which proper attribution is given to the respective uploaders. No wallpaper is distributed with our app. If an image violates any copyright,please report it to us and we will remove it from our database.</string>
+    <string name="http_imgur_com">http://imgur.com</string>
+    <string name="site">Site</string>
+    <string name="preview">Preview</string>
+    <string name="type">Type</string>
+    <string name="format_png">Format png</string>
+    <string name="creative_commons_license">Creative Commons License ©</string>
+    <string name="wallpapertext">Wallpaper</string>
+    <string name="back">Back</string>
+    <string name="todo">TODO</string>
 </resources>

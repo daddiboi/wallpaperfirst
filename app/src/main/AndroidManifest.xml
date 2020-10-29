@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.infinitysensei.kaguyasamawallpaper">
 
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,6 +10,106 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Activity50" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity49" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity48" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity47" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity46" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity45" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity44" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity43" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity42" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity41" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity40" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity39" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity38" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity37" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity36" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity35" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity34" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity33" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity32" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity31" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity30" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity29" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity28" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity27" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity26" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity25" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity24" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity23" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity22" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity21" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity20" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity19" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity18" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity17" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity16" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity15" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity14" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity13" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity12" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity11" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity10" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity9" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity8" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity7" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity6" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity5" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity4" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity3" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity2" android:screenOrientation="portrait"/>
+        <activity android:name=".Activity1" android:screenOrientation="portrait"/>
+        <activity android:name=".p50" android:screenOrientation="portrait"/>
+        <activity android:name=".p49" android:screenOrientation="portrait"/>
+        <activity android:name=".p48" android:screenOrientation="portrait"/>
+        <activity android:name=".p47" android:screenOrientation="portrait"/>
+        <activity android:name=".p46" android:screenOrientation="portrait"/>
+        <activity android:name=".p45" android:screenOrientation="portrait"/>
+        <activity android:name=".p44" android:screenOrientation="portrait"/>
+        <activity android:name=".p43" android:screenOrientation="portrait"/>
+        <activity android:name=".p42" android:screenOrientation="portrait"/>
+        <activity android:name=".p41" android:screenOrientation="portrait"/>
+        <activity android:name=".p40" android:screenOrientation="portrait"/>
+        <activity android:name=".p39" android:screenOrientation="portrait"/>
+        <activity android:name=".p38" android:screenOrientation="portrait"/>
+        <activity android:name=".p37" android:screenOrientation="portrait"/>
+        <activity android:name=".p36" android:screenOrientation="portrait"/>
+        <activity android:name=".p35" android:screenOrientation="portrait"/>
+        <activity android:name=".p34" android:screenOrientation="portrait"/>
+        <activity android:name=".p33" android:screenOrientation="portrait"/>
+        <activity android:name=".p32" android:screenOrientation="portrait"/>
+        <activity android:name=".p31" android:screenOrientation="portrait"/>
+        <activity android:name=".p30" android:screenOrientation="portrait"/>
+        <activity android:name=".p29" android:screenOrientation="portrait"/>
+        <activity android:name=".p28" android:screenOrientation="portrait"/>
+        <activity android:name=".p27" android:screenOrientation="portrait"/>
+        <activity android:name=".p26" android:screenOrientation="portrait"/>
+        <activity android:name=".p25" android:screenOrientation="portrait"/>
+        <activity android:name=".p24" android:screenOrientation="portrait"/>
+        <activity android:name=".p23" android:screenOrientation="portrait"/>
+        <activity android:name=".p22" android:screenOrientation="portrait"/>
+        <activity android:name=".p21" android:screenOrientation="portrait"/>
+        <activity android:name=".p20" android:screenOrientation="portrait"/>
+        <activity android:name=".p19" android:screenOrientation="portrait"/>
+        <activity android:name=".p18" android:screenOrientation="portrait"/>
+        <activity android:name=".p17" android:screenOrientation="portrait"/>
+        <activity android:name=".p16" android:screenOrientation="portrait"/>
+        <activity android:name=".p15" android:screenOrientation="portrait"/>
+        <activity android:name=".p14" android:screenOrientation="portrait"/>
+        <activity android:name=".p13" android:screenOrientation="portrait"/>
+        <activity android:name=".p12" android:screenOrientation="portrait"/>
+        <activity android:name=".p11" android:screenOrientation="portrait"/>
+        <activity android:name=".p10" android:screenOrientation="portrait"/>
+        <activity android:name=".p9" android:screenOrientation="portrait"/>
+        <activity android:name=".p8" android:screenOrientation="portrait"/>
+        <activity android:name=".p7" android:screenOrientation="portrait"/>
+        <activity android:name=".p6" android:screenOrientation="portrait"/>
+        <activity android:name=".p5" android:screenOrientation="portrait"/>
+        <activity android:name=".p4" android:screenOrientation="portrait"/>
+        <activity android:name=".p3" android:screenOrientation="portrait"/>
+        <activity android:name=".p2" android:screenOrientation="portrait"/>
+        <activity android:name=".p1" android:screenOrientation="portrait"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
