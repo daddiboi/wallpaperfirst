@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="180dp"
+        android:minHeight="160dp"
+        android:maxHeight="180dp"
+        android:contentDescription="@string/todo"
+        android:scaleType="centerCrop"
+        android:src="@drawable/w48" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="25sp"
+        android:text="@string/wallpapertext" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_marginStart="5dp"
+        android:textSize="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/creative_commons_license" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="170dp"
+            android:layout_height="60dp"
+            android:layout_margin="13dp"
+            android:backgroundTint="#1aa260"
+            android:text="@string/back"
+            android:textColor="#FFFFFF"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="170dp"
+            android:layout_height="60dp"
+            android:layout_margin="13dp"
+            android:backgroundTint="#1aa260"
+            android:text="@string/preview"
+            android:textColor="#FFFFFF"
+            tools:ignore="ButtonStyle" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="5dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/iconic"
+            android:contentDescription="@string/todo" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="12dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:text="@string/type"
+                android:textSize="20sp"
+                android:textColor="#000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_height="wrap_content"
+                android:text="@string/format_png"
+                android:textSize="15sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="97dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:text="@string/site"
+                android:textSize="20sp"
+                android:textColor="#000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_height="wrap_content"
+                android:text="@string/http_imgur_com"
+                android:textSize="15sp"
+                android:textColor="#FF5722"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="12dp"
+        android:text="@string/all_the_wallpapers_shows_in_the_app_are_either_in_public_domains_or_under_creative_commons_liscense_for_which_proper_attribution_is_given_to_the_respective_uploaders_no_wallpaper_is_distributed_with_our_app_if_an_image_violates_any_copyright_please_report_it_to_us_and_we_will_remove_it_from_our_database"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="360dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#1aa260"
+        android:gravity="center"
+        android:text="@string/set_as_wallpaper"
+        android:textColor="#FFFFFF" />
+</androidx.appcompat.widget.LinearLayoutCompat>
